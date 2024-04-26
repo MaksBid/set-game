@@ -15,3 +15,24 @@ This repository contains a console-based implementation of the popular board gam
 ## How to Run
 
 To compile and run the game, you can use any C++ compiler that supports C++11 or higher standards. For example, you can use g++ on Linux or MinGW on Windows.
+
+## Gameplay
+
+The game starts with a deck of 81 unique cards, with each card having four features: color, shape, number, and shading.
+At the beginning of the game, 12 cards are dealt onto the board.
+Players can choose three cards from the board and determine if they form a set. If they do, those cards are replaced with new ones from the deck.
+The game continues until either the player exits or there are no more sets on the board.
+Players can save and load their game progress at any time.
+
+## Features
+
+Random shuffling of the deck ensures a different game experience each time.
+ANSI escape codes are used to display colorful cards in the console.
+Players can save and load their game progress using text files.
+
+## How to Play
+Start a new game or load a saved game.
+Look for sets of three cards on the board.
+If you find a set, select those three cards.
+The game will indicate whether the selected cards form a set.
+Continue playing until you finish or exit the game.
