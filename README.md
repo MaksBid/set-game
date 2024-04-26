@@ -11,10 +11,8 @@ This repository contains a console-based implementation of the popular board gam
 - **main.cpp**: Contains the main logic for running the game.
 - **Card.h** and **Card.cpp**: Define the Card class representing each card in the game.
 - **functions.h** and **functions.cpp**: Declare and implement various helper functions used in the game, such as shuffling the deck and checking for sets.
-  
-## How to Run
-
-To compile and run the game, you can use any C++ compiler that supports C++11 or higher standards. For example, you can use g++ on Linux or MinGW on Windows.
+- **set.exe**: .exe file for starting the game.
+- **save.txt**: Example of a saved game.
 
 ## Gameplay
 
